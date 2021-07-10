@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /login
+Disallow: /mypage/
+Disallow: /projects/*/backers/
+Disallow: /projects/*/preview
+Disallow: /projects/start_creating
+Disallow: /password_mail
+Disallow: /inquiries
+Disallow: /counsels
+
+Sitemap: https://camp-fire.jp/sitemap.xml

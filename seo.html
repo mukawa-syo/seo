@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- 原則全てのページに入力していく。ページによって内容が変わるため、変更が必要な箇所は変更する。 -->
+
+    <title>TAKEN</title>
+    <meta name="description" content="テイクアウト事業「TAKEN」を運営している株式会社DOUSHIN（童心）です。"> <!--検索した時に出てくる説明文のようなもの-->
+    <meta property="og:site_name" content="TAKEN"> <!--サイト名-->
+    <meta property="og:title" content="TAKEN"> <!--ページのタイトルをここに入力-->
+    <meta property="og:type" content="website"> <!--TOPページの場合は「website」、WEBサイト上の記事ページなど、TOPページ以外には「article」を指定します。-->
+    <meta property="og:url" content="https://www.doushin-group.jp">　<!--ページのURLをここに入力-->
+    <meta property="og:image" content="https://www.doushin-group.jp/img/og_image.jpg"> <!--イメージ画像-->
+    <meta property="og:description" content="テイクアウト事業「TAKEN」を運営している株式会社DOUSHIN（童心）です。"> <!--sns用の説明文-->
+    <meta name="twitter:card" content="summary">　<!--Twitter上での表示タイプを指定するタグ。summaryが一般的-->
+    <meta name="twitter:site" content="@DOUSHINjp">
+    <meta name="twitter:title" content="TAKEN">
+    <meta name="twitter:description" content="テイクアウト事業「TAKEN」を運営している株式会社DOUSHIN（童心）です。">
+    <meta name="twitter:image" content="https://www.doushin-group.jp/img/og_image.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--IE対策、すでに不要論があるが一応設置。-->
+    <link rel="canonical" href="https://www.doushin-group.jp"><!--urlの正規化。そのページのurlを入力。検索エンジンに正しく読み込んでもらうために設置する。-->
+    <meta name="viewport" content="width=device-width,initial-scale=1"><!--レスポンシブに欠かせないタグ-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MNLKFF661"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6MNLKFF661');
+    </script>
+</head>
+<body>
+  1.各ページのh1を意識的に設置する。理由は検索に引っかかる優先順位が高いため。
+  そのため以下の点に気をつける。
+  ・対策キーワードを含める
+  ・特定のワードを何度も含めない
+  ・他のページと重複させない
+
+  2.alt属性を適切に設置する。検索エンジンに画像の情報を適切に伝えることになるので、内部SEO対策キーワードとの関連性も意識しつつ設定する。
+  そのため以下の点に気をつける。
+  ・特定のワードを何度も含めない
+  ・画像の内容を適切に表現する
+
+  3.画像はファイル名を設定する。例えば犬の画像ならimage.jpgではなくdog.jpg等にする。
+  そして画像の指定の仕方はsrc="img/dog.jpg"ではなくsrc="https://company.doushin-group.jp/img/dog.jpg"にする。
+
+  4.画像を圧縮したものを使うとデータが軽くなり読み込みスピードが上がりユーザーファーストなサイトになる。
+
+  5.上記４と同じ理由でcssやjavascriptも圧縮する。
+
+  6.robots.txtとはgoogleクローラーに無駄なページを読み取らせないようにするために用意する。
+  これを用意すると効率よくクローラーが巡回してくれて評価が上がる。
+  そのためrobots.txtには読み込んでほしくないページを指定する。
+  用意したtxtの中にはキャンプファイヤーのものを貼り付けてある。
+  （キャンプファイヤーは何が無駄なページと解釈して巡回させないようにしているのか参考にするため。）
+
+  7.404ページはseoの観点よりもユーザー目線で必要になるため用意する。
+</body>
+</html>
